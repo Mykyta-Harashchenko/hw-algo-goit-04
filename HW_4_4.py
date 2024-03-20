@@ -28,7 +28,7 @@ def show_contact(args, contacts):
 def all_contact(contacts):
     result = []
     for name, phone in contacts.items():
-        result.append({'Name': name, 'Phone': phone})
+        result.append({name: phone})
     return result
 def main():
     contacts = {}
